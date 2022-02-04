@@ -1,0 +1,219 @@
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+}
+
+.dashboard-logo {
+    position: absolute;
+    max-width: 100%;
+    height: 100vh;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.navbar {
+    width: 100% !important;
+    box-shadow: 0px 2px 2px rgba(84, 128, 237, 0.3);
+    background: #FFFFFF;
+    z-index: 2;
+}
+
+.logo {
+    width: 43px;
+    height: 51px;
+}
+
+.container {
+    max-width: 100% !important;
+    margin: 0 115px !important;
+    padding: 8px 0 !important;
+}
+
+.logout {
+    cursor: pointer;
+    width: 20px;
+    height: 20px
+}
+
+.p-dashboard {
+    color: #868686;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0 !important;
+    padding-left: 22px !important;
+}
+
+.dashboard-bg {
+    flex: 1 1 auto;
+    background: #f5faff;
+}
+
+.dashboard-container {
+    position: relative;
+    padding: 0 !important;
+}
+
+.dashboard-mailing-info {
+    padding-top: 70px;
+    padding-left: 90px;
+}
+
+.dashboard-mailing-info-text {
+    color: #666666;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 31px;
+}
+
+.add-mailing-btn {
+    cursor: pointer;
+    margin: 0 !important;
+    color: #4369C7 !important;
+    background: rgba(137, 171, 255, 0.31) !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 19px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.plus {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add-mailing {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dashboard-mailings {
+    flex: 1 1 auto !important;
+    padding-top: 41px !important;
+}
+
+.mailing {
+    padding: 18px 0 !important;
+}
+
+.accordion {
+    max-height: 520px;
+}
+
+.accordion-item {
+    margin-bottom: 30px !important;
+    border: none !important;
+    background: rgba(137, 171, 255, 0.31) !important;
+    border-radius: 5px !important;
+}
+
+.mailing-btn {
+    padding: 18px 0 18px 30px;
+    border: none;
+    background: inherit !important;
+}
+
+.mailing-btn:not(.collapsed) .mailing-arrow {
+    transform: rotate(180deg);
+}
+
+.mailing-arrow {
+    width: 17px;
+    height: 10px;
+    transform: rotate(0);
+    transition: ease-out .3s;
+}
+
+.mailing-name {
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+    margin-left: 45px;
+}
+
+.accordion-body {
+    padding: 35px 80px !important;
+    border: 1px solid rgba(137, 171, 255, 0.31) !important;
+    background: #f5faff !important;
+    box-sizing: border-box !important;
+}
+
+.mailing-text {
+    color: #828282 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    line-height: 19px !important;
+}
+
+.mailing-input {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border: 1px solid #89ABFF !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+    background: #F6FAFF !important;
+}
+
+.mailing-input:focus {
+    box-shadow: none !important;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.mailing-buttons {
+    padding-right: 30px;
+    margin-left: auto;
+}
+
+.mailing-status-btn {
+    min-width: 25px !important;
+    background: none !important;
+	border: none !important;
+    margin: 0 !important;
+	padding: 0 !important;
+	cursor: pointer !important;
+	outline: none !important;
+}
+
+.mailing-status-btn:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.mailing-status-btn-img {
+    margin-right: 40px;
+}
+
+.mailing-save-btn {
+    margin-top: 15px !important;
+    margin-left: auto !important;
+    min-width: 100px !important;
+    min-height: 40px !important;
+    background: rgba(137, 171, 255, 0.31) !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    color: #4369C7 !important;
+    box-shadow: none !important;
+}
+
+.spinner {
+    border-width: 1.5px !important;
+    border-color: #5480ed !important;
+    border-right-color: transparent !important;
+}

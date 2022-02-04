@@ -1,0 +1,98 @@
+.company-screen {
+    background-color: #124FE6;
+}
+
+.company-info-block {
+    min-width: 192px;
+    min-height: 487px;
+    margin-bottom: 62px;
+}
+
+.sign-in-block {
+    min-width: 398px;
+    min-height: 277px;
+}
+
+.lato {
+    font-family: 'Lato';
+}
+
+.title {
+    color: #666666;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-bottom: 32px;
+}
+
+.input {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 14px !important;  
+    background-color: rgba(137, 171, 255, 0.31) !important;
+    border-radius: 5px !important;
+    color: #868686 !important;
+}
+
+.input::placeholder {
+    color: #868686 !important;
+}
+
+.input:focus {
+    box-shadow: none !important;
+}
+
+.btn {
+    min-width: 186px;
+    min-height: 46px;
+    margin-top: 40px;
+    font-size: 18px !important;
+    border-radius: 5px !important;
+    background: #5480ED !important;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.bg-p {
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.md-p {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.sm-p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.elipse {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.rectangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+}
+
+.error {
+    color: #D90000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
